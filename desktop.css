@@ -1,0 +1,86 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+    padding: 10px;
+    float: left;
+}
+
+.icon{
+    margin-left: 0;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-bar a {
+    background-color: transparent;
+}
+
+.profile-container img{
+    max-width: 300px;
+}
+
+
+.image{
+    max-width: 250px;
+    height: 250px;
+}
+
+.profile-text{
+    font-size: 6.25rem;
+}
+.profile-ptext{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* About me starts here */
+
+.about::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* Skills Starts here  */
+
+.skills-experience{
+    width: 25%;
+    margin: 60px 60px;
+}
+
+.skills-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contact-container::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.form1{
+    margin: 100px;
+}
